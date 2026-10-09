@@ -19,7 +19,7 @@
       >
         Instagram
       </a>
-      <a class="contact-button" href="mailto:inzone.no@gmail.com">E-post</a>
+      <a class="contact-button" href="mailto:post@inzonenevromangfold.no">E-post</a>
     </div>
   </article>
 </template>
