@@ -5,7 +5,7 @@
       For å bli medlem sender du fult navn, mobilnummer og foretrukken e-post
       adresse til:
     </p>
-    <p><a href="mailto:inzone.no@gmail.com">inzone.no@gmail.com</a></p>
+    <p><a href="mailto:post@inzonenevromangfold.no">post@inzonenevromangfold.no</a></p>
     <p>
       Du må ikke være medlem for å møte opp, men er du ikke medlem får du ikke
       informasjon om aktiviteter eller mulige endringer av planer. Det er ingen
