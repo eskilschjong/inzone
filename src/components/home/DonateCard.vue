@@ -11,10 +11,15 @@
       target="_blank"
       rel="noopener noreferrer"
     >
+      <HandHeart :size="18" aria-hidden="true" />
       Doner på Spleis
     </a>
   </article>
 </template>
+
+<script setup lang="ts">
+import { HandHeart } from '@lucide/vue'
+</script>
 
 <style scoped>
 .card {
@@ -30,6 +35,7 @@
 .card h2 {
   margin-top: 0;
   color: var(--color-text);
+  font-weight: 800;
 }
 
 .card p {
@@ -37,7 +43,10 @@
 }
 
 .donate-button {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   width: fit-content;
   min-width: 12rem;
   margin: 0 auto;

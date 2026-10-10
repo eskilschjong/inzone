@@ -37,11 +37,13 @@
 .hero h1 {
   margin: 0;
   color: var(--color-green);
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .hero p {
   margin: 0;
   max-width: 60ch;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
 </style>

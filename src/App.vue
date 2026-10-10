@@ -18,9 +18,9 @@ import { RouterView } from 'vue-router'
 <style>
 :root {
   --color-yellow: #ffce04;
-  --color-orange: #e99e04;
+  --color-orange: #f8bd3c;
   --color-orange-light: #fcefd3;
-  --color-green: #057c6d;
+  --color-green: #036054;
   /* --color-red: #e82052; */
   --color-red: #b0003a;
   --color-page-bg: #ededed;
