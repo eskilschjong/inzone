@@ -26,6 +26,7 @@
 .card h2 {
   margin-top: 0;
   color: var(--color-white);
+  font-weight: 800;
 }
 
 .card p + p {

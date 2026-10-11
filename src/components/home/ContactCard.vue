@@ -17,12 +17,20 @@
         target="_blank"
         rel="noopener noreferrer"
       >
+        <Camera :size="18" aria-hidden="true" />
         Instagram
       </a>
-      <a class="contact-button" href="mailto:post@inzonenevromangfold.no">E-post</a>
+      <a class="contact-button" href="mailto:post@inzonenevromangfold.no">
+        <Mail :size="18" aria-hidden="true" />
+        E-post
+      </a>
     </div>
   </article>
 </template>
+
+<script setup lang="ts">
+import { Camera, Mail } from '@lucide/vue'
+</script>
 
 <style scoped>
 .card {
@@ -35,6 +43,7 @@
 .card h2 {
   margin-top: 0;
   color: var(--color-white);
+  font-weight: 800;
 }
 
 .card p + p {
@@ -50,7 +59,10 @@
 }
 
 .contact-button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   min-width: 10.5rem;
   text-align: center;
   background: var(--color-yellow);

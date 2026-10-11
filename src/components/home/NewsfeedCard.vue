@@ -26,7 +26,7 @@
 .newsfeed-section h2 {
   margin: 0;
   color: var(--color-green);
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .subtitle {
