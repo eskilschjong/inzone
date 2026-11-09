@@ -8,7 +8,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   // GitHub Pages project sites are served from a subpath like /inzone/.
   // Using a relative base keeps the built app working from the repo URL.
-  base: './',
+  base: '/',
   plugins: [
     vue(),
     vueDevTools(),
